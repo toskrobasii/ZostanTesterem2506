@@ -25,6 +25,6 @@ public class PageSetup {
     @AfterEach
     public void teardown() {
         // roznica driver.close() a driver.quit()
-//        driver.close();
+        driver.close();
     }
 }
