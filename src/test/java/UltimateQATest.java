@@ -13,6 +13,8 @@ public class UltimateQATest extends PageSetup {
         // sposoby nacisniecia na element: .click() / Actions .perform  / executor javascript
         button.click();
 
+        // TEST GITA
+
         WebElement text = driver.findElementByClassName("entry-title");
         Assertions.assertEquals("Button success", text.getText());
     }
